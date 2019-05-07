@@ -47,4 +47,3 @@ df[sample(nrow(df), 6, rep = T), ]
 # selecting row based
 mtcars[mtcars$gear == 4, ]
 subset(mtcars, gear == 5)
-
